@@ -1,0 +1,88 @@
+:root {
+    --background-color : #131921;
+    --yello-color: #F3A847;
+    --white-color: #fff;
+}
+
+
+#product-slider-container{
+  background-color: var(--white-color);
+  margin: 1rem;
+  position: relative;
+  z-index: -1;
+}
+.slider-title{
+    justify-content: start;
+}
+.product-slider{
+    position: relative;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: var(--white-color);
+}
+.slider-button{
+    position: absolute;
+    background-color: transparent;
+    padding: 2rem .5rem;
+    border-radius: 0 3px 3px 0;
+    background-color: #fff;
+    box-shadow: 0 1px 3px #888;
+    border: none;
+    outline: none;
+    padding-right: 3px;
+    top: 35%;
+    z-index: 999;
+}
+
+.discount{
+    background-color: red;
+    color: white;
+    padding: .2rem;
+    margin: 0 .2rem;
+    font-weight: 600;
+    font-size: .9rem;
+}
+.dealOfTheDay{
+    color: red;
+    padding: .2rem;
+    margin: 0 .2rem;
+    font-weight: 600;
+    font-size: .9rem;
+}
+.product-card{
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    width: fit-content;
+    color: black;
+}
+.card-img{
+    background-color: #F7F8F8;
+    display: flex;
+    justify-content: center;
+}
+.product-card-img{
+    width: 100%;
+}
+.product-discription{
+    text-overflow: ellipsis;
+    width: 14rem;
+    height: 5rem;
+}
+.product-name{
+    font-size: 14px;
+    color: #2d2929;
+}
+.slierCarousel{
+    background-color: #fff;
+    margin: 0 1rem;
+}
+
+.sffsd{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 5px ;
+    margin: 1rem;
+}
